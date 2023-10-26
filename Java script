@@ -1,0 +1,46 @@
+// Fetch location data
+
+fetch('/api/location')
+
+.then(response => response.json())
+
+    .then(locationData => {
+
+        // Process and display location data
+
+        // Update the 'location-data' div with the data
+
+    });
+
+
+
+// Fetch ridership data
+
+fetch('/api/ridership')
+
+    .then(response => response.json())
+
+    .then(ridershipData => {
+
+        // Process and display ridership data
+
+        // Update the 'ridership-data' div with the data
+
+    });
+
+
+
+// Fetch arrival time data
+
+fetch('/api/arrival-time')
+
+    .then(response => response.json())
+
+    .then(arrivalTimeData => {
+
+        // Process and display arrival time data
+
+        // Update the 'arrival-time-data' div with the data
+
+    });
+
